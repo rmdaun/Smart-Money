@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+@keyframes fadein {
+    from{opacity: 0;}
+    to {opacity: 1;}
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: Oswald, sans-serif; /*Muda a fonte*/
+}
+ 
+body{
+    background-color: #181818; /*Cor do Fundo*/
+    color: #fff; /*Cor do Texto*/
+    animation: fadein 2s;
+}
+
+.wrapper {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#logo h1{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase; /*Coloca tudo em maiúsculo*/
+    text-align: center; /*Alinha ao centro*/
+}
+
+#logo span {
+    color: #eba417
+}
+
+#banner {
+    display: flex;
+    margin-top: 40px;
+}
+
+#banner img {
+    width: 450px;
+    height: 300px;
+}
+
+#texto {
+    padding-right: 30px;
+}
+
+#texto h2 {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+#texto h3 {
+    font-size: 36px;
+}
+
+#texto h3 span {
+    color: #eba417;
+}
+
+
+#texto button {
+    background-color: #1a7993;
+    color: #fff;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    width: 173px;
+    transition: background 1s;
+    margin-top: 15px;
+}
+
+#texto button:hover {
+    background-color: #084a5a;
+}
